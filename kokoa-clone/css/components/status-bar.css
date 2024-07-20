@@ -1,4 +1,7 @@
+
 .status-bar{
+  color: black;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
