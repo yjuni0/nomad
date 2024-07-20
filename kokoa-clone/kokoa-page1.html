@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/components/login.css"
+      href="css/components/status-bar.css"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to kokoa Talk</title>
@@ -25,13 +29,14 @@
     <header class="welcome-header">
       <h1 class="welcome-header__tittle">Welcome to KokoaTalk</h1>
       <p class="welcome-header__text">
-        If you have Kakao a Account, log in with email or phone number.
+        If you have Kakao a Account,<br />log in with your email or phone
+        number.
       </p>
     </header>
 
-    <form id="login-form">
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+    <form action="kokoa-page2.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <input type="submit" value="Sign Up" />
       <a href="#">Find Kokoa Account Password</a>
