@@ -64,5 +64,22 @@ while playing:
     print("Higher!")
 """
 
-# days_of_week = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
-# print(days_of_week[0])
+"""days_of_week = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
+print(days_of_week[0])"""
+
+"""
+websites = [
+  "https://google.com",
+  "airbnb.com",
+  "https://twitter.com",
+  "facebook.com",
+  "tiktok.com",
+  "instagram.com"
+]
+
+for website in websites: 
+  if not website.startswith("https://"):
+    website = f"https://{website}"
+  print(website)
+"""
+
