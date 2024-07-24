@@ -9,6 +9,13 @@ class Puppy:
   def __str__(self):
     return f"{self.breed} puppy named {self.name} {self.age} years"
 
+  def woof_woof(self):
+    print("Woof Woof!")
+
+  def introduce(self):
+    print(f"My name is {self.name} and I am a little {self.breed}")
+    self.woof_woof()
+
 ruffus = Puppy(
   name="Ruffus",
   breed="Beagle",
@@ -20,8 +27,9 @@ bibi = Puppy(
   age=0.1
 )
 
-print(
-  ruffus,
-  bibi,
-)
+
+ruffus.introduce()
+
+bibi.introduce()
+
 
