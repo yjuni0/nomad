@@ -7,13 +7,13 @@ class Dog:
 
 class GuardDog(Dog): #부모 클래스에서 inherit 받기  blabla(top class) 
 
-  def __init__(self, name, breed):
+  def __init__(self, name, breed): # 부모 클래스의 __init__ 메서드 호출
     super().__init__(
       name=name,
       age=5,
       breed=breed
     )
-    self.spoiled = True # 상속받은 method 외에 각자의 method 갖을 수 있음
+    self.spoiled = True # 상속받은 method 외에 각자의 method와 property를 갖을 수 있음
   def rrrrr(self):
     print("stay away!")
 
