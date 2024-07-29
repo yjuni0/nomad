@@ -9,6 +9,8 @@ soup = BeautifulSoup(response.content, "html.parser",)
 
 jobs = soup.find("section", class_="jobs").find_all("li")[1:-1]
 
+all_jobs = []
+
 for job in jobs:
     
     title_elem = job.find("span", class_="title")
@@ -26,5 +28,11 @@ for job in jobs:
     position = position_elem.text if position_elem else "No Position"
     region = region_elem.text if region_elem else "No Region"
 
-
-    print(title, company, position, region, "-----\n")
+    job_data = {
+        "title": title,
+        "company": company_elem.text,
+        "position": position_elem.text,
+        "region": region_elem.text,
+    }
+    all_jobs.append(job_data)
+print(all_jobs)    
