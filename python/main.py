@@ -64,9 +64,12 @@ while playing:
     print("Higher!")
 """
 
-"""days_of_week = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
-print(days_of_week[0])"""
+"""
+days_of_week = ["Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"]
+print(days_of_week[0])
+"""
 
+"""
 from requests import get
 
 websites = (
@@ -88,5 +91,6 @@ for website in websites:
   else:
     results[website] = "Failed"
 print(results)
+"""
 
 
