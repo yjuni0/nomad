@@ -27,12 +27,13 @@ for job in jobs:
     company = company_elem.text if company_elem else "No Company"
     position = position_elem.text if position_elem else "No Position"
     region = region_elem.text if region_elem else "No Region"
-
+    url = job.find("div", class_="tooltip--flag-logo").next_sibling["href"]
     job_data = {
         "title": title,
         "company": company_elem.text,
         "position": position_elem.text,
         "region": region_elem.text,
+        "url": f"https://weworkremotely.com{url}"
     }
     all_jobs.append(job_data)
 print(all_jobs)    
