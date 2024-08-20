@@ -37,4 +37,4 @@ time.sleep(1)
 
 # 로그인 버튼 클릭
 login_btn = driver.find_element(By.CSS_SELECTOR, "#log\\.login")
-login_btn.click()
+login_btn.click()ㄴㅁㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ
