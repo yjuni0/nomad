@@ -1,0 +1,7 @@
+{
+  "python.linting.pylintEnabled": true,
+  "python.linting.pylintPath": "your_poetry_env_path/bin/pylint",
+  "python.analysis.extraPaths": [
+    "your_poetry_env_path/lib/pythonX.X/site-packages"
+  ]
+}
