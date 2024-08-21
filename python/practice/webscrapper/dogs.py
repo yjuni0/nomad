@@ -46,4 +46,4 @@ bibi = GuardDog(
 
 print(ruffus.aggressive)
 
-bibi.rrrrr()
+print(bibi)
