@@ -19,9 +19,10 @@
   font-weight: 600;
   font-size: 20px;
   color: black;
+  margin-bottom: 10px;
 }
 .user-component__subtitle{
-  margin-top: 7px;
+  margin-top: 10px;
   font-size: 17px;
   color: rgba(0,0,0,0.5);
 }
@@ -41,7 +42,14 @@
 }
 
 
-
 .user-component__column:last-child{
   color: rgba(0,0,0,0.5);
+}
+.ping{
+  margin: 7px;
+}
+
+.user-component__time{
+  margin-bottom: 6px;
+  display: block;
 }
